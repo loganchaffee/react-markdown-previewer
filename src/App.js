@@ -40,7 +40,7 @@ function anotherExample(firstLine, lastLine) {
     const handleChange = (e) => {
         setEditorContent(e.target.value)
     }
-
+ 
     const createMarkup = () => {
         return {__html: previewContent}
     }
